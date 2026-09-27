@@ -1,0 +1,19 @@
+{
+  "name": "effect-v4-order-study",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node --import tsx demo.ts",
+    "study": "node --import tsx chapters/demo.ts",
+    "test": "node --import tsx --test order.test.ts chapters/study.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "effect": "4.0.0-beta.107"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}
